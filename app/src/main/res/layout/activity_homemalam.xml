@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yunitadwipj.antibiotik.Homemalam">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="270dp"
+        android:src="@drawable/gambarmalam"
+        android:layout_marginBottom="49dp"
+        android:layout_above="@+id/tips"
+        android:layout_alignParentStart="true" />
+    <ImageButton
+        android:id="@+id/pagi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pagi"
+        android:layout_weight="1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"/>
+    <ImageButton
+        android:id="@+id/siang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/siang"
+        android:layout_weight="1"
+        android:layout_toRightOf="@+id/pagi"
+        android:layout_alignParentTop="true"/>
+    <ImageButton
+        android:id="@+id/sore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sore"
+        android:layout_weight="1"
+        android:layout_toRightOf="@+id/siang"
+        android:layout_alignParentTop="true"/>
+    <ImageButton
+        android:id="@+id/malam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/malam"
+        android:layout_weight="1"
+        android:layout_toRightOf="@+id/sore"
+        android:layout_alignParentTop="true"/>
+    <ImageButton
+        android:id="@+id/lonceng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lonceng"
+        android:layout_weight="1"
+        android:layout_toRightOf="@+id/malam"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@+id/malam" />
+
+
+    <ImageButton
+        android:id="@+id/tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tips"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dp"
+        android:layout_above="@+id/tv1" />
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tips"
+        android:textSize="15dp"
+        android:layout_marginLeft="35dp"
+        android:textAlignment="center"
+        android:layout_above="@+id/dokterku"
+        android:layout_toStartOf="@+id/siang" />
+
+    <ImageButton
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/status"
+        android:layout_weight="1"
+        android:layout_above="@+id/tv2"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:layout_above="@+id/darurat"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/lemari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lemari"
+        android:layout_weight="1"
+        android:layout_marginRight="20dp"
+        android:layout_above="@+id/tv3"
+        android:layout_alignStart="@+id/bantuan" />
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lemari Obat"
+        android:layout_marginRight="20dp"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:layout_above="@+id/bantuan"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:id="@+id/dokterku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dokterku"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dp"
+        android:layout_above="@+id/tv4"
+        android:layout_alignTop="@+id/darurat" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="Dokterku"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:layout_below="@+id/darurat"
+        android:layout_alignEnd="@+id/dokterku" />
+
+    <ImageButton
+        android:id="@+id/darurat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/darurat"
+        android:layout_weight="1"
+        android:layout_above="@+id/tv5"
+        android:layout_alignStart="@+id/status" />
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Darurat"
+        android:textSize="15dp"
+        android:layout_marginLeft="25dp"
+        android:textAlignment="center"
+        android:layout_above="@+id/quotes"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/bantuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bantuan"
+        android:layout_weight="1"
+        android:layout_marginRight="20dp"
+        android:layout_above="@+id/tv6"
+        android:layout_alignStart="@+id/tv6" />
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dokterku"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="Bantuan"
+        android:layout_marginRight="35dp"
+        android:textSize="15dp"
+        android:textAlignment="center"/>
+
+
+
+    <TextView
+        android:id="@+id/quotes"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:padding="10dp"
+        android:background="#66CC99"
+        android:text="QUOTES"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/tv6" />
+
+
+</RelativeLayout>

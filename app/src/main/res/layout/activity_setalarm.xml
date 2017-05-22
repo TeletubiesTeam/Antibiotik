@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yunitadwipj.antibiotik.setalarm">
+
+    <TextView
+        android:id="@+id/outobat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alarmprompt"
+        android:text="Nama Obat"
+        android:textSize="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <EditText
+        android:id="@+id/addnama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/outobat"
+        android:ems="5"/>
+
+    <TextView
+        android:id="@+id/wkt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switch2"
+        android:text="Waktu"
+        android:textSize="20dp"/>
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wkt"
+        android:layout_marginLeft="15dp">
+        <RadioButton
+            android:id="@+id/pg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pagi"/>
+        <RadioButton
+            android:id="@+id/sg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Siang"/>
+        <RadioButton
+            android:id="@+id/sr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sore"/>
+        <RadioButton
+            android:id="@+id/ml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Malam"/>
+    </RadioGroup>
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/switch1"
+        android:layout_below="@+id/addnama"
+        android:checked="true"
+        android:text="Aktifkan Alarm"
+        android:textSize="20dp"/>
+
+    <AnalogClock
+        android:id="@+id/jam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroup1"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/startSetDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+        android:text="Set Alarm"
+        android:layout_below="@+id/jam"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"/>
+    <TextView
+        android:id="@+id/alarmprompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setalarm" />
+    <Button
+        android:id="@+id/simpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:layout_below="@+id/jam"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
