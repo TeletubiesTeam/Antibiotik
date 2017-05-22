@@ -3,42 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\yunitadwipj\AndroidStudioProjects\Antibiotik2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="C:\Users\yunitadwipj\AndroidStudioProjects\Antibiotik2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_589ab59c74bbdab86e7f1ca16b9860cbaf8a92e5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\yunitadwipj\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.8\ec0f15c77ddd390e5ac514ac72ebbb9f2e0e31e2\library-1.0.8.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ec0f15c77ddd390e5ac514ac72ebbb9f2e0e31e2">
-        <dex dex="C:\Users\yunitadwipj\AndroidStudioProjects\Antibiotik2\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-1.0.8_2c8002fac5ff38fd6f18f215757d82648c4f9357\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\yunitadwipj\.android\build-cache\cde4092d7d0aba626f0a45dec6068106101d0bb7\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a8ae156c2726ac9c56daaf4b49452ec2cdb7bba9">
-        <dex dex="C:\Users\yunitadwipj\AndroidStudioProjects\Antibiotik2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8d3d5564f6582d8a6a5eab52fc8fa39851e2e476\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\yunitadwipj\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\volley-integration\1.4.0\aa52998c139a242251bd52ec4e2ee55e0cfbf055\volley-integration-1.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aa52998c139a242251bd52ec4e2ee55e0cfbf055">
-        <dex dex="C:\Users\yunitadwipj\AndroidStudioProjects\Antibiotik2\app\build\intermediates\transforms\dex\debug\folders\1000\10\volley-integration-1.4.0_c5c42833ccb19c381019713c269c60bb9eccdff7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\yunitadwipj\AndroidStudioProjects\Antibiotik2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
@@ -48,21 +12,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\yunitadwipj\.android\build-cache\3c0b49a54fcf3b7fc9c73d645d48f0a86fb1c747\output\jars\classes.jar"
+        jar="C:\Users\yunitadwipj\AndroidStudioProjects\Antibiotik2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
-        <dex dex="C:\Users\yunitadwipj\AndroidStudioProjects\Antibiotik2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_aaa850a9771b15418da25dc91e7613dae58d5eab\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\yunitadwipj\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
-        <dex dex="C:\Users\yunitadwipj\AndroidStudioProjects\Antibiotik2\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_1eb54c89df08d5ee9393108a1d5537b971fe1444\classes.dex" />
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\yunitadwipj\AndroidStudioProjects\Antibiotik2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_589ab59c74bbdab86e7f1ca16b9860cbaf8a92e5\classes.dex" />
     </item>
 
 </items>

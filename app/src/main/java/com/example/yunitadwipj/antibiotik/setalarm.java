@@ -42,14 +42,6 @@ public class setalarm extends AppCompatActivity {
             }
         });
 
-        Button btnalrm = (Button) findViewById(R.id.simpan);
-        btnalrm.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        });
-
     }
     private void openTimePickerDialog(boolean is24r){
         Calendar calendar = Calendar.getInstance();

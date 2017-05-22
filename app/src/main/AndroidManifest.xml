@@ -26,16 +26,10 @@
         <activity android:name=".dokterku" />
         <activity android:name=".darurat" />
         <activity android:name=".bantuan" />
-        <activity android:name=".setalarm" />
+        <activity android:name=".setalarm"></activity>
 
-        <receiver
-            android:name=".alarmreceiver"
-            android:process=":remote" />
-
-        <activity
-            android:name=".TambahActivity"
-            android:label="@string/title_activity_tambah"
-            android:theme="@style/AppTheme.NoActionBar" />
+        <receiver android:name=".alarmreceiver"
+            android:process=":remote"/>
     </application>
 
 </manifest>
