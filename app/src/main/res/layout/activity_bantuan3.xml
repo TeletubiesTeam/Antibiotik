@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.yunitadwipj.antiobiotik.bantuan3">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jdl_ban3"
+        android:text="Cara Mencari Dokter"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/isi1_ban3"
+        android:text="1. Klik ikon dokterku"
+        android:layout_below="@+id/jdl_ban3"
+        android:textSize="15sp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/isi2_ban3"
+        android:text="2. Cari dokter sesuai keinginan"
+        android:layout_below="@+id/isi1_ban3"
+        android:textSize="15sp"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/isi3_ban3"
+        android:text="3. Lihat Detail Dokterku"
+        android:layout_below="@+id/isi2_ban3"
+        android:textSize="15sp"
+        android:layout_marginBottom="10dp"/>
+</RelativeLayout>

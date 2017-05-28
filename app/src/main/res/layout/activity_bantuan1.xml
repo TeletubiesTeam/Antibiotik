@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.yunitadwipj.antiobiotik.bantuan1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jdl_ban1"
+        android:text="Cara Menambah Alarm"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/isi1_ban1"
+        android:text="1. Pertama klik tombol tambah (+) pada tampilan home"
+        android:textSize="15sp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/isi2_ban1"
+        android:text="2. Masukkan identitas obat yang akan diatur"
+        android:textSize="15sp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/isi3_ban1"
+        android:text="3. Tentukan waktu alarm sesuai keinginan"
+        android:textSize="15sp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/isi4_ban1"
+        android:text="4. Tekan Simpan"
+        android:textSize="15sp"
+        android:layout_marginBottom="10dp"
+        />
+</LinearLayout>
