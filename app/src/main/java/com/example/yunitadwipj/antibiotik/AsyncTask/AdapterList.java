@@ -1,4 +1,4 @@
-package com.example.misbahul.antiobiotik.AsyncTask;
+package com.example.yunitadwipj.antiobiotik.AsyncTask;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,11 +11,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.example.misbahul.antiobiotik.DetailTips;
-import com.example.misbahul.antiobiotik.DetailTips;
-import com.example.misbahul.antiobiotik.ListTips;
-import com.example.misbahul.antiobiotik.ListTips;
-import com.example.misbahul.antiobiotik.R;
+import com.example.yunitadwipj.antiobiotik.DetailTips;
+import com.example.yunitadwipj.antiobiotik.DetailTips;
+import com.example.yunitadwipj.antiobiotik.ListTips;
+import com.example.yunitadwipj.antiobiotik.ListTips;
+import com.example.yunitadwipj.antiobiotik.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package com.example.misbahul.antiobiotik.AsyncTask;
+package com.example.yunitadwipj.antiobiotik.AsyncTask;
 
 import android.app.Application;
 import android.text.TextUtils;
@@ -7,11 +7,7 @@ import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.Volley;
-import com.example.misbahul.antiobiotik.Utils.LruBitmapCache;
-
-/**
- * Created by FIKID on 5/20/2017.
- */
+import com.example.yunitadwipj.antiobiotik.Utils.LruBitmapCache;
 
 public class AppController extends Application {
     public static final String TAG = AppController

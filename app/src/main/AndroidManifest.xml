@@ -19,7 +19,8 @@
         <activity android:name=".Homesiang" />
         <activity android:name=".Homesore" />
         <activity android:name=".Homemalam" />
-        <activity android:name=".tips" />
+        <activity android:name=".ListTips" />
+	<activity android:name=".DetailTips"/>
         <activity android:name=".status" />
         <activity android:name=".alarm" />
         <activity android:name=".lemari" />

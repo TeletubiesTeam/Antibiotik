@@ -1,4 +1,4 @@
-package com.example.misbahul.antiobiotik;
+package com.example.yunitadwipj.antiobiotik;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
@@ -13,9 +13,9 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.JsonObjectRequest;
-import com.example.misbahul.antiobiotik.AsyncTask.AdapterList;
-import com.example.misbahul.antiobiotik.AsyncTask.AppController;
-import com.example.misbahul.antiobiotik.AsyncTask.Helper;
+import com.example.yunitadwipj.antiobiotik.AsyncTask.AdapterList;
+import com.example.yunitadwipj.antiobiotik.AsyncTask.AppController;
+import com.example.yunitadwipj.antiobiotik.AsyncTask.Helper;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -38,6 +38,7 @@ public class ListTips extends Helper {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_tips);
+	getSupportActionBar().setTitle("Tips");
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
