@@ -1,4 +1,4 @@
-package com.example.yunitadwipj.antiobiotik;
+package com.example.yunitadwipj.antibiotik;
 
         import android.app.Activity;
         import android.content.Intent;

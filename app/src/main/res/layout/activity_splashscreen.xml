@@ -13,9 +13,7 @@
     android:id="@+id/logo"
     android:layout_alignParentTop="true"
     android:layout_centerVertical="true"
-    android:layout_centerHorizontal="true"
-
-        />
+    android:layout_centerHorizontal="true"        />
 
     <ProgressBar
         android:id="@+id/progressBar1"

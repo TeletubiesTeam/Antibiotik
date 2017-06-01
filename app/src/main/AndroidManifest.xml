@@ -23,9 +23,17 @@
         <activity android:name=".status" />
         <activity android:name=".alarm" />
         <activity android:name=".lemari" />
+        <activity android:name=".tampilanobat" />
         <activity android:name=".dokterku" />
+        <activity android:name=".splashScreen" />
+        <activity android:name=".hubungidokter" />
+        <activity android:name=".tambahdokter" />
         <activity android:name=".darurat" />
+        <activity android:name=".tampilandarurat" />
         <activity android:name=".bantuan" />
+        <activity android:name=".bantuan1" />
+        <activity android:name=".bantuan2" />
+        <activity android:name=".bantuan3" />
         <activity android:name=".setalarm"></activity>
 
         <receiver android:name=".alarmreceiver"
